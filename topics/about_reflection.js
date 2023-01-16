@@ -38,7 +38,7 @@ test("hasOwnProperty", function() {
         keys.push(propertyName);
     }
     equal(2, keys.length, 'how many elements are in the keys array?');
-    deepEqual(["aprop", "bprop"], keys, 'what are the properties of the array?');
+    deepEqual(["bprop", "aprop"], keys, 'what are the properties of the array?');
 
     // hasOwnProperty returns true if the parameter is a property directly on the object,
     // but not if it is a property accessible via the prototype chain.

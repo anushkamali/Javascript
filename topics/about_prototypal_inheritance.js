@@ -26,7 +26,7 @@ Mammal.prototype.favouriteSaying = function() {
 
 test("more functions", function() {
     var bobby = new Mammal("Bobby");
-    equal("Bobby's favorite saying is Hello, my name is Bobby", bobby.favouriteSaying(), "what is Bobby's favourite saying?"); 
+    equal("Bobby's favourite saying is Hello, my name is Bobby", bobby.favouriteSaying(), "what is Bobby's favourite saying?"); 
 });
 
 test("calling functions added to a prototype after an object was created", function() {
